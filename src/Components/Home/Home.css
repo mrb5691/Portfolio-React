@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Raleway"), local("Raleway-Regular"),
+      url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyCMIT4ttDfCmxA.woff2)
+        format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+      U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  .skillCardText {
+    font-family: "Roboto Slab", serif;
+  }
+  .intro,
+  .skills,
+  .contact {
+    margin: 20px 20px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
+  h1 {
+    font-family: "Open Sans", sans-serif;
+  }
+  .introHolder,
+  .skillsHolder,
+  .contactHolder {
+    width: 85%;
+    margin: 0 auto;
+    color: black;
+  }
+  .skillzHolder{
+  background-image: url('https://i.postimg.cc/tJv5rpp6/156622179-cobweb-red-background-vector-spider-happy-halloween-party-day-fun-funny-spooky-creepy-horr.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: white;
+  }
+  .lilMe {
+    display: none;
+  }
+  .skillIcon {
+    max-height: 100px;
+    max-width: 100px;
+  }
+  .skillzTitle {
+    text-align: center;
+  }
+  .skillAndName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .frontEndSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .skillzRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  button {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media (max-width: 700px) {
+    .intro,
+    .skills,
+    .contact {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 20px;
+      padding: 2px;
+    }
+    .skillIcon {
+      max-width: 75px;
+      max-height: 75px;
+    }
+  }
+  @media (max-width: 500px) {
+    .titleHolder {
+      margin-top: 100px;
+    }
+  }
